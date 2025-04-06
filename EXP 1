@@ -1,0 +1,8 @@
+import numpy as np
+a=np.array([[3,7,1],[9,8,1],[45,7,1]])
+a1=(np.sort(a, axis = None))
+print(a1)
+a2=(np.sort(a, axis =0))
+print(a2)
+a3=(np.sort(a, axis = 1))
+print(a3)
